@@ -1,0 +1,40 @@
+.regField{
+    width: 100%;
+    background-color: #39A2DB;
+    color: #E8F0F2;
+    border: 1px solid #39A2DB;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+
+.submitBtn{
+    width:100%;
+    background: #A2DBFA;
+    border: 0;
+    color: #E8F0F2;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.underLine{
+    text-align: center;
+    margin: 7px 0 0 0;
+    display: block;
+
+}
+
+.linkBtn{
+    border:0;
+    background-color:#A2DBFA;
+    text-decoration: underline;
+    color: #E8F0F2;
+    padding: 0;
+    margin :0;
+    
+
+}
