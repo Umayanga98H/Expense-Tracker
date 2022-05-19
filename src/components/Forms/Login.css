@@ -1,7 +1,7 @@
 .regField{
     width: 100%;
-    background-color: #39A2DB;
-    color: #E8F0F2;
+    background-color: #E8F0F2;
+    color: #000000;
     border: 1px solid #39A2DB;
     padding: 15px;
     box-sizing: border-box;
@@ -11,11 +11,11 @@
 
 .submitBtn{
     width:100%;
-    background: #A2DBFA;
+    background: #053742;
     border: 0;
     color: #E8F0F2;
     padding: 15px;
-    margin: 10px 0 0 0;
+    margin: 15px 0 0 0;
     font-size: 15px;
     cursor: pointer;
 
@@ -25,16 +25,14 @@
     text-align: center;
     margin: 7px 0 0 0;
     display: block;
+    color:#000000;
 
 }
 
 .linkBtn{
-    border:0;
-    background-color:#A2DBFA;
     text-decoration: underline;
-    color: #E8F0F2;
-    padding: 0;
-    margin :0;
-    
-
+    color: #000000;
+    cursor: pointer;
+    background-color:#39A2DB;
+    border: 0;
 }

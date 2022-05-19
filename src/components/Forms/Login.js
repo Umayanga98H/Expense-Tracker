@@ -1,7 +1,7 @@
-import React,{ component } from 'react';
+import React,{ Component } from 'react';
 import './Login.css';
 
-class Login extends component{
+class Login extends Component{
     state= {
         email: '',
         password: '',
@@ -12,9 +12,19 @@ class Login extends component{
         return(
             <>
                 <form>
-                    <input type="text" className="regField" placeholder="Email" name="email"/>
-                    <input type="password" className="regField" placeholder="Password" name="password"/>
-                    <input type="submit" className="sunmitBtn" value="Enter"/>
+                    <input type="text" 
+                    className="regField" 
+                    placeholder="Email" 
+                    name="email"/>
+
+                    <input type="password" 
+                    className="regField" 
+                    placeholder="Password" 
+                    name="password"/>
+
+                    <input type="submit" 
+                    className="submitBtn" 
+                    value="Enter"/>
                 </form>
             </>
         )
